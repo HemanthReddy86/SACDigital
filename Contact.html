@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assests/Css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body oncontextmenu="return false;">
     <header class="headbg">
         <div class="container">
             <div><span> <i class="fa fa-phone" aria-hidden="true"></i>+91-9177598521</span> | <span><i class="fa fa-envelope-o" aria-hidden="true"></i> info@companyname.com</span></div>
@@ -161,6 +161,13 @@
       </section>
       <!---Footer Section--->
     <!---Js files--->
+    <script>
+      document.getElementById("myElement").addEventListener("contextmenu", function(event) {
+  event.preventDefault();
+});
+
+
+    </script>
 <script src="assests/Js/bootstrap.bundle.min.js"></script> 
 <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script> -->
